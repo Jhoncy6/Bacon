@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Cormorant Upright', serif;
+}
+
+.background {
+    background-image: url(../img/Imagem\ fundo.webp);
+    width: 100%;
+    padding: 10px;
+}
+
+.background-cortes{
+    background-image: url(../img/Imagem\ fundo.webp);
+    height: 100vh;
+    padding: 10px;
+}
+
+.background-salada{
+    background-image: url(../img/Imagem\ fundo.webp);
+    height: 120vh;
+    padding: 10px;
+}
+
+
+.background-executivos{
+    background-image: url(../img/Imagem\ fundo.webp);
+    width: 100%;
+    padding: 10px;
+}
+
+
+.box_menu .sidebar_menu {
+    height: 100vh;
+    width: 280px;
+    background: url(../img/fundo1.webp);
+    position: fixed;
+    /* top: 10px; */
+    overflow: hidden;
+    left: -280px;
+    transition: all 0.3s linear;
+    z-index: 10;
+}
+
+.box_menu .siderbar_titulo {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    box-shadow: 0px 2px 4px #2b0202;
+}
+
+.box_menu .siderbar_titulo a {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    position: absolute;
+    left: 40px;
+    line-height: 75px;
+    top: -10px;
+}
+
+.sidebar_menu .menu {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    margin-left: -39px;
+    margin-top: -23px;
+}
+
+.box_menu .menu li {
+    margin: 6px !important;
+    padding: 9px 14px !important;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.box_menu .menu li:hover {
+    background-color: rgba(194, 165, 35, 0.514);
+}
+
+.activeBtn {
+    background-color: rgba(194, 165, 35, 0.514);;
+}
+
+.sidebar_menu .menu i {
+    color: #fff;
+    font-size: 21px;
+    padding-right: 8px;
+}
+
+.sidebar_menu .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.box_menu .menu-icon i {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    left: 10px;
+    line-height: 120px;
+    cursor: pointer;
+}
+
+.sidebar_menu .btn_close i {
+    font-size: 35px;
+    line-height: 30px;
+    position: absolute;
+    left: 230px;
+    color: #fff;
+    cursor: pointer;
+    top: 13px;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked~.sidebar_menu {
+    left: 0;
+    margin-top: 0px;
+}
+
+
+.boxx {
+    border: 3px solid #a15353ba;
+    border-radius: 12px;
+    background-color: #dd111121;
+    box-shadow: -1px 5px 20px 4px #661804d6;
+}
+
+.fotop {
+    width: 100px;
+}
+
+.footer {
+    margin-top: 50px;
+    align-items: center;
+    color: #fff;
+}
+
+.por {
+    color: #fff;
+    font-size: 25px;
+
+}
+
+.por2{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer !important;
+}
+
+.por2:hover{
+    color: #fff;
+}
+
+.tipo{
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.tudoo{
+    padding: 16px;
+}
+
+.especial{
+    color: rgb(255 0 0)
+}
+
+
+.prato{
+    color: #fff;
+}
+
+.descricao {
+    color: #84919b;
+}
+
+.dinheiro{
+    color: rgb(255, 196, 0);
+}
+
+.vegano{
+    color: green;
+}
+
+.pimenta   {
+    color: red;
+}
+
+@media (max-width:768px) {
+
+    .background-cortes {
+        background-image: url(../img/Imagem\ fundo.webp);
+        width: 100%;
+        height: 150%;
+        padding: 10px;
+    }
+
+    .background-salada {
+        background-image: url(../img/Imagem\ fundo.webp);
+        height: 180vh;
+        padding: 10px;
+    }
+
+    .sidebar_menu .menu a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .sidebar_menu .menu i {
+        color: #fff;
+        font-size: 17px;
+        padding-right: 8px;
+    }
+
+    .sidebar_menu .menu {
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        margin-left: -39px;
+        margin-top: -30px;
+    }
+
+    .box_menu .menu li {
+        margin: 3px !important;
+        padding: 4px 14px !important;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .acompanhamento{
+            color: #fff;
+            padding: 5px;
+            font-weight: bold;
+            font-size: 40px !important;
+            margin-top: 21px;
+    }
+    .observacao{
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .por {
+        color: #fff;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    .tipo {
+        color: #fff;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 50px;
+        margin-top: 25px;
+    }
+
+    .showw{
+        color: #fff;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 40px;
+        margin-top: 25px;
+    }
+}
